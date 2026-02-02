@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20220103005117im_/https://fonts.gstatic.com/s/karla/v15/qkBIXvYC6trAT55ZBi1ueQVIjQTD-JqqFA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20220103005117im_/https://fonts.gstatic.com/s/karla/v15/qkBIXvYC6trAT55ZBi1ueQVIjQTDH52qFA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20220103005117im_/https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm45xW4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20220103005117im_/https://fonts.gstatic.com/s/ubuntu/v15/4iCv6KVjbNBYlgoCxCvTtw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20220103005117im_/https://fonts.gstatic.com/s/worksans/v13/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXNig.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20220103005117im_/https://fonts.gstatic.com/s/worksans/v13/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K3vXNig.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20220103005117im_/https://fonts.gstatic.com/s/worksans/v13/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K5fQNig.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 00:51:17 Jan 03, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:32:25 Jan 30, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 385.412
+  exclusion.robots: 0.189
+  exclusion.robots.policy: 0.174
+  cdx.remote: 0.116
+  esindex: 0.014
+  LoadShardBlock: 155.779 (3)
+  PetaboxLoader3.datanode: 115.375 (4)
+  CDXLines.iter: 27.345 (3)
+  load_resource: 74.903
+  PetaboxLoader3.resolve: 51.822
+*/

@@ -70,8 +70,6 @@ body {
     font-family: 'AvenirLTStd-family' !important;
     line-height: 1.7;
     font-size: 1rem;
-    margin: 0;
-    padding: 0;
 }
 
 
@@ -269,7 +267,7 @@ img {
     left: 0;
     width: 100%;
     height: 250px;
-    background: url(/hero_curve.png) no-repeat center bottom;
+    background: url(./hero_curve.png) no-repeat center bottom;
     background-size: cover;
     z-index: 0;
 }
@@ -614,6 +612,7 @@ box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.54);
     display: block;
     margin:0 8px 10px 8px;
     color: #3d3d3d;
+    text-decoration: none;
 }
 
 .site-footer ul li a:hover {
@@ -1024,7 +1023,7 @@ playback timings (ms):
 
 
 .video-section{
-    max-width: 800px;
+    max-width: 700px;
     margin: 60px auto;
     padding: 0 15px;
   }
@@ -1082,186 +1081,4 @@ playback timings (ms):
     object-fit:cover;
     display:none;
     background:#000;
-  }
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-  /* ===== Header ===== */
-.tc_header {
-    background: #e8f3f4;
-    padding: 40px 20px 0px;
-    position: relative;
-    margin-bottom: 200px;
-}
-
-  .tc_header::after{
-    content:'';
-     position: absolute;
-    bottom: -201px;
-    left: 0;
-    width: 100%;
-    height: 250px;
-    background: url(../hero_curve.png) no-repeat center bottom;
-    background-size: cover;
-    z-index: 0;
-
-  }
-
-  .tc_logo{
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
-.tc_title {
-    text-align: center;
-    color: #ff5a1f;
-    font-size: 45px;
-    font-weight: bold;
-    margin: 0;
-}
-
-
-.tc_updated {
-    text-align: center;
-    font-size: 20px;
-    color: #000;
-    margin-top: 6px;
-    font-weight: bold;
-    margin-bottom: 40px;
-}
-
-.tc_back {
-    font-size: 13px;
-    color: #444;
-    text-decoration: none;
-    z-index: 1111;
-    position: relative;
-}
-
-  /* ===== Content ===== */
-  .term_privacy_container{
-    max-width:900px;
-    margin:40px auto;
-    padding:0 20px;
-  }
-
-.term_privacy p {
-    font-size: 16px;
-    margin-bottom: 20px;
-    color: #444;
-}
-
-.term_privacy h3 {
-    font-size: 23px;
-    margin: 30px 0 10px;
-    color: #000;
-}
-
-  .tc_list{
-   padding: 0;
-   margin: 0;
-  }
-
-.tc_list li {
-    font-size: 16px;
-    margin-bottom: 5px;
-    color: #444;
-}
-
-  /* ===== CTA ===== */
-  .cta{
-    background:linear-gradient(135deg,#ff6a00,#ff3d3d);
-    color:#fff;
-    border-radius:18px;
-    padding:30px;
-    margin:60px auto;
-    max-width:900px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    flex-wrap:wrap;
-  }
-
-  .cta h2{
-    font-size:24px;
-    margin-bottom:6px;
-  }
-
-  .cta p{
-    font-size:14px;
-    opacity:0.9;
-  }
-
-  .store-btns img{
-    height:45px;
-    margin-left:10px;
-  }
-
-  /* ===== Footer ===== */
-  footer{
-    text-align:center;
-    padding:40px 20px 20px;
-  }
-
-  footer img{
-    height:45px;
-    margin-bottom:15px;
-  }
-
-  .socials a{
-    margin:0 8px;
-    font-size:18px;
-    text-decoration:none;
-    color:#3b5998;
-  }
-
-  .copyright{
-    font-size:12px;
-    color:#777;
-    margin-top:15px;
-  }
-
-  /* ===== Cookie Bar ===== */
-  .cookie{
-    position:fixed;
-    bottom:0;
-    left:0;
-    width:100%;
-    background:#fff;
-    border-top:1px solid #ddd;
-    padding:12px 16px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    font-size:12px;
-  }
-
-  .cookie button{
-    background:#ff5a1f;
-    color:#fff;
-    border:none;
-    padding:6px 14px;
-    border-radius:4px;
-    cursor:pointer;
-  }
-
-  @media(max-width:768px){
-    .cta{
-      text-align:center;
-    }
-    .store-btns{
-      margin-top:15px;
-    }
   }
