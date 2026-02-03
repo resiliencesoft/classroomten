@@ -80,13 +80,6 @@ body {
   /*min-width:800px !important;*/
 }
 </style>
-<script>__wm.rw(0);</script>
-<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr; height: 1px;"><template shadowrootmode="closed"><link rel="stylesheet" type="text/css" href="https://portal.marroapp.com/_static/css/banner-styles.css?v=S1zqJCYt"><link rel="stylesheet" type="text/css" href="https://portal.marroapp.com/_static/css/iconochive.css?v=qtvMKcIJ"></template>
-</div>
-<script type="text/javascript">//<![CDATA[
-__wm.bt(700,27,25,2,"web","https://classroomten.com/","20211129025639",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=qtvMKcIJ"], false);
-  __wm.rw(1);
-//]]></script>
 <!-- END WAYBACK TOOLBAR INSERT -->
 
     <!-- <div id="cookies-eu-banner" style="display: none;">
@@ -146,6 +139,12 @@ __wm.bt(700,27,25,2,"web","https://classroomten.com/","20211129025639",1996,"/_s
                                 <span>Get it on</span>
                                 App Store
                             </a>
+
+                            <a href="https://web.archive.org/web/20211129025639/https://apps.apple.com/us/app/classroom-ten/id1566494232" target="_blank" class="download-link" aria-label="Get it on appstore">
+                                <img src="./play-store.svg" alt="">
+                                <span>Get it on</span>
+                                Google Play
+                            </a>
                              <!--  <a href="#" class="download-link" aria-label="Get it on google play">
                                 <img src="images/playstore.svg" alt="">
                                 <span>Get it on</span>
@@ -183,22 +182,15 @@ __wm.bt(700,27,25,2,"web","https://classroomten.com/","20211129025639",1996,"/_s
                 <!--section-two-heading-->
 
                 <div class="row align-items-center">
-                     <section class="video-section">
-                        <div class="video-box" onclick="playVideo()">
-                            
-                           
-                            <img src="./video-thumb.png" alt="Video Thumbnail">
+                    <section class="video-section">
+                    <button class="play-btn" id="playBtn" onclick="toggleVideo()"></button>
 
-                           
-                            <div class="play-btn"></div>
-
-                           
-                            <video id="myVideo" controls>
-                            <source src="video.mp4" type="video/mp4">
-                            </video>
-
-                        </div>
-                        </section>
+    <!-- Video with Thumbnail -->
+    <video id="myVideo" width="618" height="350px" poster="./video-thumbnail.png" onclick="toggleVideo()">
+        <source src="./video.mov" type="video/mp4">
+        <source src="./video.mov" type="video/ogg">
+    </video>
+                    </section>
                 </div>
 
                 <div class="row align-items-center">
@@ -384,7 +376,7 @@ __wm.bt(700,27,25,2,"web","https://classroomten.com/","20211129025639",1996,"/_s
 
            <div class="download-cta">
                 <div>
-                    <h2>Download Classroom Ten Today!</h2>
+                    <h2>Download Classroom Ten <br>Today!</h2>
                     <p>Invite the world to your classroom</p>
                 </div>
                 <div class="download-links-wrap">
@@ -392,6 +384,12 @@ __wm.bt(700,27,25,2,"web","https://classroomten.com/","20211129025639",1996,"/_s
                         <img src="./appstore.svg" alt="">
                         <span>Get it on</span>
                         App Store
+                    </a>
+
+                     <a href="https://web.archive.org/web/20211129025639/https://apps.apple.com/us/app/classroom-ten/id1566494232" target="_blank" class="download-link" aria-label="Get it on appstore">
+                        <img src="./play-store.svg" alt="">
+                        <span>Get it on</span>
+                        Google Play
                     </a>
                  <!--   <a href="#" class="download-link" aria-label="Get it on google play">
                         <img src="images/playstore.svg" alt="">
@@ -440,11 +438,10 @@ __wm.bt(700,27,25,2,"web","https://classroomten.com/","20211129025639",1996,"/_s
             </div>
 
             <ul>
-                <li><a href="https://portal.marroapp.com/mobile/terms-and-privacy-classroomten.html">Terms &amp; Privacy</a></li>
-                <li><a href="https://portal.marroapp.com/mobile/privacy-policy-classroomten.html">Privacy Policy</a></li>
+                <li><a href="terms-&-privacy.html">Terms &amp; Privacy</a></li>
             </ul>
 
-            <small>© 2023 ClassroomTen. All Rights Reserved</small>
+            <small>© 2026 ClassroomTen. All Rights Reserved</small>
 
         </div>
         <!--container-->
@@ -452,12 +449,25 @@ __wm.bt(700,27,25,2,"web","https://classroomten.com/","20211129025639",1996,"/_s
     </footer>
     <!--site-footer-->
 
-    <script>
-  function playVideo(){
-    const video = document.getElementById("myVideo");
-    video.style.display = "block";
-    video.play();
-  }
+<script>
+const video = document.getElementById("myVideo");
+const btn   = document.getElementById("playBtn");
+
+function toggleVideo(){
+
+    if(video.paused){
+        video.play();
+        btn.style.display = "none"; // hide button
+    }else{
+        video.pause();
+        btn.style.display = "block"; // show button
+    }
+}
+
+// When video ends → show button again
+video.addEventListener("ended", function(){
+    btn.style.display = "block";
+});
 </script>
 
     <script src="./Welcome to ClassroomTen_files/jquery.min.js.download" integrity="" crossorigin="anonymous"></script>

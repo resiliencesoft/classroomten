@@ -209,13 +209,12 @@ img {
     padding: 0.875rem 0.9375rem 0.875rem 3.4375rem;
     border-radius: 22px;
     text-align: left;
-    font-family: 'AvenirLTStd-Heavy';
     font-size: 1rem;
+    text-decoration: none;
 }
 
 .download-link span {
     display: block;
-    font-family: 'AvenirLTStd-Roman';
     font-size: 0.75rem;
 }
 
@@ -480,6 +479,9 @@ content: "";
     -o-transition: box-shadow 300ms ease;
     transition: box-shadow 300ms ease;
     transition: box-shadow 300ms ease, -webkit-box-shadow 300ms ease;
+    padding: 15px 20px 15px 65px;
+    min-width: 193px;
+    margin-right: 0;
 }
 
 .download-cta .download-link:hover {
