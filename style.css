@@ -1073,6 +1073,22 @@ playback timings (ms):
     z-index: 111;
 }
 
+@media screen and (max-width: 1024px) {
+    .video-section video {
+        width: 100%;
+        height: auto;
+        border: 0px;
+    }
+
+    .video-section{
+        margin: 0 auto;
+    }
+
+    .section-two .section-two-heading{
+        margin-bottom: 20px;
+    }
+}
+
 /* Hover Effect */
 #playBtn:hover{
     transform: translate(-50%, -50%) scale(1.1);
