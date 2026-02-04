@@ -255,7 +255,8 @@ img {
 }
 
 .hero_img{
-    margin-bottom: -200px;
+    margin-bottom: -225px;
+    margin-top: 60px;
 }
 
 .hero-section::before {
